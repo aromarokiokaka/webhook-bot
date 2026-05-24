@@ -2,6 +2,7 @@ from flask import Flask, request
 import stripe
 import requests
 
+stripe.api_key = "sk_test_51TaeBvQ9L3hu9VrYM1ChOrpmO4K1k2AKLeX8IXLEaNnQZiizuleF1IA3GbfR74FjGW4XYQEgPehButBrENKw8YYN00O2cVM3Rr"
 STRIPE_SECRET = "whsec_5Cn0ClI8YcYtN8MEI0Xge55dlWVfz737"
 BOT_TOKEN = "8948433286:AAHX9RxtNKKF_MF25PGV6WS2d2aCrlrm3GI"
 LINK_A_ENTREGAR = "https://shop1850859027.v.weidian.com/item.html?itemID=7611475251"
